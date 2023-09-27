@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Learning journal</title>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <div class="logo-container">
+          <img src="./images/logo.png" alt="logo">
+          <h2>My Learning Journal</h2>
+        </div>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" id="toggleMenuButton">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <main id="blog-container-el" class="blog container"></main>
+    <span class="view-more">
+      <p><strong>View More</strong></p>
+    </span>
+    <footer>
+      <span>My Learning Journal</span>
+      <p>Copyright &copy; 2023</p>
+    </footer>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
